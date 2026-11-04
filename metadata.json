@@ -1,0 +1,6 @@
+{
+  "name": "Digi Wedding Invite",
+  "description": "Premium Digital Wedding Invitation SaaS with traditional Indian luxury aesthetics, customizable templates, RSVPs, and interactive wedding websites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

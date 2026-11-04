@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon-deep: #5B1020;
+  --color-maroon-royal: #7B1E2B;
+  --color-maroon-dark: #3a0812;
+  --color-maroon-light: #942938;
+  --color-gold-antique: #C6A15B;
+  --color-gold-light: #E6C98A;
+  --color-gold-dark: #9F7E3B;
+  --color-gold-pale: #FBF4E6;
+  --color-ivory: #FFF8ED;
+  --color-ivory-light: #FFFCF7;
+  --color-dark-text: #33241F;
+  --color-dark-muted: #5e4a42;
+
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-script: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Base styling */
+body {
+  font-family: var(--font-sans);
+  background-color: #FFF8ED;
+  color: #33241F;
+}
+
+h1, h2, h3, .font-serif-luxury {
+  font-family: var(--font-serif);
+}
+
+.font-editorial {
+  font-family: var(--font-script);
+}
+
+/* Subtle ornamental Indian motifs and borders */
+.bg-mandala-subtle {
+  background-color: #5B1020;
+  background-image: radial-gradient(rgba(198, 161, 91, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-ivory-pattern {
+  background-color: #FFF8ED;
+  background-image: radial-gradient(rgba(198, 161, 91, 0.08) 1.5px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, #C6A15B, #E6C98A, #C6A15B) 1;
+}
+
+.gold-border-subtle {
+  border: 1px solid rgba(198, 161, 91, 0.35);
+}
+
+.gold-border-prominent {
+  border: 1px solid rgba(198, 161, 91, 0.7);
+}
+
+.gold-shimmer {
+  background: linear-gradient(135deg, #C6A15B 0%, #F5E6BE 50%, #9F7E3B 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #C6A15B 0%, #E6C98A 50%, #B89045 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
